@@ -22,4 +22,4 @@ pro_AT = float("{0:.2f}".format(proportion_AT)) # proportion rounded to two deci
 pro_GC = float("{0:.2f}".format(proportion_GC))
 
 print("AT bases " + str(count_AT) + ", GC bases " + str(count_GC) + 
-        "; Proportion AT " + str(proportion_AT) + ", proportion GC " + str(proportion_GC)) # print out values
+        "; Proportion AT " + str(pro_AT) + ", proportion GC " + str(pro_GC)) # print out values
